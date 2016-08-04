@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="make_default_sink" mtime="1447353993" type="bool" value="true"/>
+	<entry name="checked" mtime="1447353993" type="bool" value="true"/>
+	<entry name="move_streams" mtime="1447353992" type="bool" value="true"/>
+</gconf>

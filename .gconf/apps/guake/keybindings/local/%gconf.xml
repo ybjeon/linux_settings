@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="rename_tab" mtime="1448611493" type="string">
+		<stringvalue>F12</stringvalue>
+	</entry>
+	<entry name="clipboard_copy" mtime="1447595791" type="string">
+		<stringvalue>&lt;Primary&gt;&lt;Shift&gt;c</stringvalue>
+	</entry>
+	<entry name="clipboard_paste" mtime="1448819719" type="string">
+		<stringvalue>&lt;Primary&gt;&lt;Shift&gt;v</stringvalue>
+	</entry>
+	<entry name="close_tab" mtime="1448783423" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Alt&gt;k</stringvalue>
+	</entry>
+	<entry name="new_tab" mtime="1448778637" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Alt&gt;n</stringvalue>
+	</entry>
+</gconf>

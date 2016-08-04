@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="ftp_allow_write" mtime="1447353993" type="bool" value="false"/>
+	<entry name="shared_path" mtime="1447353993" type="string">
+		<stringvalue>/home/jeonyoungbae/Public</stringvalue>
+	</entry>
+	<entry name="ftp_enabled" mtime="1447353993" type="bool" value="true"/>
+	<entry name="opp_enabled" mtime="1447353993" type="bool" value="true"/>
+</gconf>

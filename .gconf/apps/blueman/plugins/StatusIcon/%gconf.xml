@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="icon" mtime="1447353992" type="string">
+		<stringvalue>blueman-tray</stringvalue>
+	</entry>
+</gconf>

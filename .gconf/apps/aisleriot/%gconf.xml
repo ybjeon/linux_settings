@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="statistics" mtime="1454656578" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>klondike.scm</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>1</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>5</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>369</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>369</stringvalue>
+		</li>
+	</entry>
+	<entry name="game_file" mtime="1454656569" type="string">
+		<stringvalue>klondike.scm</stringvalue>
+	</entry>
+	<entry name="recent_games_list" mtime="1454656569" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>klondike</stringvalue>
+		</li>
+	</entry>
+	<entry name="show_statusbar" mtime="1454656569" type="bool" value="true"/>
+</gconf>

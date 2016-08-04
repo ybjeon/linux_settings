@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="max_items" mtime="1447353993" type="int" value="6"/>
+	<entry name="recent_connections" mtime="1447353993" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+</gconf>
