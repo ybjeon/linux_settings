@@ -19,6 +19,14 @@ sudo apt-get install python-virutalenv
 if $gui; then
 sudo apt-get install guake
 fi
+
+if $gui; then
+# sublime text
+sudo add-apt-repository ppa:webupd8team/sublime-text-2
+sudo apt-get update
+sudo apt-get install sublime-text
+fi
+
 # install and setting zsh
 sudo apt-get install zsh
 sudo apt-get install git-core
