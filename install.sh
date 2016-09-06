@@ -10,7 +10,10 @@ sudo apt-get install vim
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp .vimrc ~
 
+# tmux
 sudo apt-get install tmux
+cp .tmux.conf ~
+
 sudo apt-get install git
 sudo apt install htop
 cp -r .gconf ~
