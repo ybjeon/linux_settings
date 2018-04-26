@@ -26,6 +26,8 @@ if $gui; then
 sudo apt install -y guake
 fi
 
+sudo apt install software-properties-common
+
 if $gui; then
 # sublime text
 sudo add-apt-repository ppa:webupd8team/sublime-text-2
