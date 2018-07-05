@@ -31,7 +31,7 @@ sudo apt install software-properties-common
 if $gui; then
 # sublime text
 sudo add-apt-repository ppa:webupd8team/sublime-text-2
-sudo apt-get update
+sudo apt update
 sudo apt install -y sublime-text
 fi
 
