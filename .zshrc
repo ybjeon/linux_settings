@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/ybjeon/.oh-my-zsh
+  export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -83,4 +83,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias xxclip="xclip -selection clipboard"
-source /home/ybjeon/linux_settings/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/linux_settings/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
