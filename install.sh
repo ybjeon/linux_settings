@@ -6,38 +6,41 @@ else
 fi
 
 # git
-sudo apt install -y git
+sudo apt-get install -y git
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 # vim & plugins
-sudo apt install -y vim
+sudo apt-get install -y vim
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp .vimrc ~
 
 # tmux
-sudo apt install -y tmux
+sudo apt-get install -y tmux
 cp .tmux.conf ~
 
-sudo apt install htop
+sudo apt-get install htop
 cp -r .gconf ~
-sudo apt install -y python-pip
-sudo apt install -y python-virutalenv	
+sudo apt-get install -y python-pip
+sudo apt-get install -y python-virutalenv	
 if $gui; then
-sudo apt install -y guake
+sudo apt-get install -y guake
 fi
 
-sudo apt install software-properties-common
+sudo apt-get install software-properties-common
 
 if $gui; then
 # sublime text
 sudo add-apt-repository ppa:webupd8team/sublime-text-2
-sudo apt update
-sudo apt install -y sublime-text
+sudo apt-get update
+sudo apt-get install -y sublime-text
 fi
 
 # install and setting zsh
-sudo apt install -y zsh
-sudo apt install -y git-core
+sudo apt-get install -y zsh
+sudo apt-get install -y git-core
+
+# curl
+sudo apt-get install -y curl
 
 # oh-my-zsh
 cp .zshrc ~
@@ -48,7 +51,7 @@ source ~/.zshrc
 chsh -s $(which zsh)
 
 #etc
-sudo apt install -y htop
+sudo apt-get install -y htop
 if $gui; then
-sudo apt install -y xclip
+sudo apt-get install -y xclip
 fi
