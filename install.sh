@@ -12,14 +12,14 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 # vim & plugins
 sudo apt-get install -y vim
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-cp .vimrc ~
+sudo cp .vimrc ~
 
 # tmux
 sudo apt-get install -y tmux
-cp .tmux.conf ~
+sudo cp .tmux.conf ~
 
 sudo apt-get install htop
-cp -r .gconf ~
+sudo cp -r .gconf ~
 sudo apt-get install -y python-pip
 sudo apt-get install -y python-virutalenv	
 if $gui; then
@@ -43,7 +43,7 @@ sudo apt-get install -y git-core
 sudo apt-get install -y curl
 
 # oh-my-zsh
-cp .zshrc ~
+sudo cp .zshrc ~
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
