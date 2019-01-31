@@ -11,7 +11,7 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 # vim & plugins
 sudo apt-get install -y vim
-git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 sudo cp .vimrc ~
 
 # tmux
@@ -55,3 +55,7 @@ sudo apt-get install -y htop
 if $gui; then
 sudo apt-get install -y xclip
 fi
+
+# korean 
+sudo apt-get install -y fcitx-hangul
+sudo apt-get install -y fonts-nanum
