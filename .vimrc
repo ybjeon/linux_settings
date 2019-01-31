@@ -1,5 +1,5 @@
 set nocompatible
-filetype on
+filetype off
 filetype plugin on
 filetype indent on
 syntax on
@@ -30,6 +30,7 @@ Plugin 'lepture/vim-jinja'
 Plugin 'mattn/emmet-vim'
 "Bundle 'Glench/Vim-Jinja2-Syntax'
 
+call vundle#end()
 
 " keymapping
 map <F2> :NERDTreeTabsToggle<CR>
