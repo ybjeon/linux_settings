@@ -1,5 +1,20 @@
 # linux_settings
-The script for installing favourite packages for Debian OS
+The script of installing favourite packages and configurations for Debian OS  
+
+**Contents**
+- vim (w/ plugins)
+- tmux
+- htop
+- curl
+- python-pip
+- zsh (w/ oh-my-zsh)
+- xclip
+- korean keyboard (uim)
+
+
+**Final test version**
+- Ubuntu 16.04 LTS
+- Ubuntu 18.04.5 LTS
 
 ## Installing procedure
 - git install
