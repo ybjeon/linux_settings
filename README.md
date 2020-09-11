@@ -6,15 +6,18 @@ install.sh (gui)
 ```
 
 **Contents**
-- vim (w/ plugins)
+- vim (w/ Vundle plugins)
 - tmux
 - htop
 - curl
-- sublimetext
 - python-pip
 - zsh (w/ oh-my-zsh)
-- xclip
 - korean keyboard (uim)
+
+**Contents (+gui)**
+- guake
+- sublimetext
+- xclip
 
 
 **Final test version**
