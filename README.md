@@ -2,7 +2,7 @@
 The script of installing favourite packages and configurations for Debian OS  
 
 ```bash
-install.sh (gui)
+./install.sh (gui)
 ```
 
 **Contents**
@@ -19,16 +19,16 @@ install.sh (gui)
 - sublimetext
 - xclip
 
-
 **Final test version**
 - Ubuntu 16.04 LTS
 - Ubuntu 18.04.5 LTS
 
 ## Installing procedure
+- update mirror server (korea)
 - git install
 - download script
 - execute install.sh
-
+- execute vim --> :BundleInstall
 
 ## Korea Mirror Server
 ### APT update list
