@@ -30,10 +30,11 @@ sudo apt-get install software-properties-common
 
 if $gui; then
 # sublime text
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-sudo apt-get update
-sudo apt-get install sublime-text
+sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
+sudo apt update
+sudo apt install -y sublime-text
+
 fi
 
 # install and setting zsh
@@ -43,20 +44,18 @@ sudo apt-get install -y git-core
 # curl
 sudo apt-get install -y curl
 
-# oh-my-zsh
-sudo cp .zshrc ~
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
-echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
-source ~/.zshrc
-chsh -s $(which zsh)
-
-#etc
-sudo apt-get install -y htop
 if $gui; then
 sudo apt-get install -y xclip
 fi
 
+# oh-my-zsh
+sudo cp .zshrc ~
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" "" --unattended
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/zsh-syntax-highlighting
+echo "source $HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
+sudo chsh -s $(which zsh) $(whoami)
+
 # korean 
-sudo apt-get install -y fcitx-hangul
-sudo apt-get install -y fonts-nanum
+sudo apt-get install -y uim
+im-config -n uim
+cp -r .uim.d ~
