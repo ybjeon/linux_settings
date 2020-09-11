@@ -49,7 +49,7 @@ sudo apt-get install -y xclip
 fi
 
 # oh-my-zsh
-sudo cp .zshrc ~
+cp .zshrc ~
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" "" --unattended
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/zsh-syntax-highlighting
 echo "source $HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
