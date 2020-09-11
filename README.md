@@ -1,11 +1,16 @@
 # linux_settings
 The script of installing favourite packages and configurations for Debian OS  
 
+```bash
+install.sh (gui)
+```
+
 **Contents**
 - vim (w/ plugins)
 - tmux
 - htop
 - curl
+- sublimetext
 - python-pip
 - zsh (w/ oh-my-zsh)
 - xclip
