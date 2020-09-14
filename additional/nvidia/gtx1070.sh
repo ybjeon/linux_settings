@@ -24,3 +24,6 @@ sudo apt-mark hold cuda
 
 # sudo dpkg -i ~runtime~
 # sudo dpkg -i ~dev~
+
+pip3 install tensorflow==1.12.0
+pip3 install tensorflow-gpu==1.12.0
