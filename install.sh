@@ -20,8 +20,8 @@ sudo cp .tmux.conf ~
 
 sudo apt-get install htop
 sudo cp -r .gconf ~
-sudo apt-get install -y python-pip
-sudo apt-get install -y python-virutalenv	
+sudo apt-get install -y python3-pip
+sudo apt-get install -y python3-virutalenv	
 if $gui; then
 sudo apt-get install -y guake
 fi
