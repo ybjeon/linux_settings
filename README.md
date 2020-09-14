@@ -10,7 +10,8 @@ The script of installing favourite packages and configurations for Debian OS
 - tmux
 - htop
 - curl
-- python-pip
+- python3-pip
+- python3-virtualenv
 - zsh (w/ oh-my-zsh)
 - korean keyboard (uim)
 
