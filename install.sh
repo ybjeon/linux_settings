@@ -29,11 +29,7 @@ fi
 sudo apt-get install software-properties-common
 
 if $gui; then
-# sublime text
 sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
-sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
-sudo apt update
-sudo apt install -y sublime-text
 
 fi
 
