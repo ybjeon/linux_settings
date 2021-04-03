@@ -29,7 +29,7 @@ statsmodels
 # sudo apt install cmake
 scikit-build
 cmake
-opencv-python
+# sudo apt install python3-opencv
 
 # dev
 # sudo apt install python-mysqldb
