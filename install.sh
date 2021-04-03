@@ -51,6 +51,10 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/zsh-syn
 echo "source $HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 sudo chsh -s $(which zsh) $(whoami)
 
+# video codec
+sudo apt-get install -y ubuntu-restricted-extras
+sudo apt-get install -y libavcodec54 libavcodec58 libav-tools ffmpeg
+
 # korean 
 sudo apt-get install -y uim
 im-config -n uim
