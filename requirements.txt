@@ -1,0 +1,41 @@
+# LA, ML, DM
+numpy
+sklearn
+scipy
+pandas
+
+# visualization
+matplotlib
+seaborn
+
+# SP
+pywavelets
+dtw
+
+# DL
+tensorflow
+tensorflow-gpu
+keras
+kapre
+
+# audio
+librosa
+soundfile
+
+# stats
+statsmodels
+
+# vision
+# sudo apt install cmake
+scikit-build
+cmake
+opencv-python
+
+# dev
+# sudo apt install python-mysqldb
+sqlalchemy
+joblib
+tqdm
+
+# etc.
+h5py
