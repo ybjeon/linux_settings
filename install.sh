@@ -58,3 +58,8 @@ sudo apt-get install -y ubuntu-restricted-extras ffmpeg
 sudo apt-get install -y uim
 im-config -n uim
 cp -r .uim.d ~
+
+# python
+sudo apt-get install python3-opencv
+sudo apt install python-mysqldb
+sudo apt install cmake
