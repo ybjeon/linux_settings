@@ -52,8 +52,7 @@ echo "source $HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zs
 sudo chsh -s $(which zsh) $(whoami)
 
 # video codec
-sudo apt-get install -y ubuntu-restricted-extras
-sudo apt-get install -y libavcodec54 libavcodec58 libav-tools ffmpeg
+sudo apt-get install -y ubuntu-restricted-extras ffmpeg
 
 # korean 
 sudo apt-get install -y uim
