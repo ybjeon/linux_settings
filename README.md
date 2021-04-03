@@ -39,6 +39,7 @@ sudo vi /etc/apt/sources.list
 ```
 ### Python pip
 ```bash
+sudo mkdir ~/.pip
 sudo vi ~/.pip/pip.conf
 ```
 copy and paste
