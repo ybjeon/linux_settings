@@ -63,3 +63,6 @@ cp -r .uim.d ~
 sudo apt-get install python3-opencv
 sudo apt install python-mysqldb
 sudo apt install cmake
+
+# etc
+sudo apt-get install filezilla
