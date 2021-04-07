@@ -60,9 +60,10 @@ im-config -n uim
 cp -r .uim.d ~
 
 # python
-sudo apt-get install python3-opencv
-sudo apt install python-mysqldb
-sudo apt install cmake
+sudo apt-get install -y python3-opencv
+sudo apt-get install -y python-mysqldb
+sudo apt-get install -y cmake
 
 # etc
-sudo apt-get install filezilla
+sudo apt-get install -y filezilla
+sudo apt-get install -y kazam
