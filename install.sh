@@ -67,3 +67,4 @@ sudo apt-get install -y cmake
 # etc
 sudo apt-get install -y filezilla
 sudo apt-get install -y kazam
+sudo apt-get install -y net-tools
