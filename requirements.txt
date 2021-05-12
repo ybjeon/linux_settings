@@ -22,6 +22,10 @@ kapre
 librosa
 soundfile
 
+# video
+ffmpeg
+moviepy
+
 # stats
 statsmodels
 
