@@ -37,6 +37,7 @@ cmake
 
 # dev
 # sudo apt install python-mysqldb
+pymysql
 sqlalchemy
 joblib
 tqdm
