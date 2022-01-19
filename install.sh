@@ -61,7 +61,8 @@ cp -r .uim.d ~
 
 # python
 sudo apt-get install -y python3-opencv
-sudo apt-get install -y python-mysqldb
+sudo apt-get install -y python3-mysqldb
+sudo apt-get install -y python3-notebook
 sudo apt-get install -y cmake
 
 # etc
